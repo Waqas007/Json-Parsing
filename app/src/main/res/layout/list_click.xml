@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/hlk">
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:id="@+id/imgview1"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:text="Rink:"
+        android:id="@+id/rank1"
+        android:layout_below="@+id/imgview1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:text="country:"
+        android:id="@+id/country1"
+
+        android:layout_below="@+id/rank1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:text="population:"
+        android:id="@+id/population1"
+        android:layout_below="@+id/country1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:text="1"
+        android:id="@+id/ranktv1"
+        android:layout_below="@+id/imgview1"
+        android:layout_toRightOf="@+id/rank1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:text="1"
+        android:id="@+id/countrytv1"
+        android:layout_below="@+id/ranktv1"
+        android:layout_toRightOf="@+id/country1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:text="1"
+        android:id="@+id/populationtv1"
+        android:layout_below="@+id/population1"
+       />
+</RelativeLayout>
